@@ -1,7 +1,7 @@
 // import the Sequelize constructor from the library
 const Sequelize = require('sequelize');
 
-require('dotenv').congif();
+require('dotenv').config();
 
 // create a connection to our database
 const sequelize = new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
